@@ -130,9 +130,9 @@ var tampilUcapan = '' + waktoonyabro;
 //nocache
 require('./XeonDoge.js')
 
-const starts = async (dogexeon = new WAConnection()) => {
-	dogexeon.logger.level = 'warn'
-	dogexeon.version = [2, 2149, 4]
+const starts = async (fahribot = new WAConnection()) => {
+	fahri.logger.level = 'warn'
+	fahri.version = [2, 2149, 4]
 	console.log(color(`\x1b[1;37m> ${tampilUcapan}\n`,'cyan'))
 	console.log(color(figlet.textSync('Doge Bot', {
 		font: 'Standard',
@@ -145,14 +145,14 @@ const starts = async (dogexeon = new WAConnection()) => {
 console.log(color('> GITHUB: DGXeon ','silver'))
 console.log(color('> WA NUMBER: +916909137213 ','silver'))
 console.log(color('  Xeon Bot Inc. 2021','mediumseagreen'))
-	dogexeon.browserDescription = [ 'Subscribe Xeon', 'ubuntu', '3.0' ]
+	fahri.browserDescription = [ 'Subscribe presetrend', 'ubuntu', '3.0' ]
 
 	dogexeon.on('qr', () => {
 	console.log(color('[','white'), color('!','red'), color(']','white'), color('SCAN THE QR'))
 })
 	dogexeon.on('credentials-updated', () => {
 		fs.writeFileSync('./session.json', JSON.stringify(dogexeon.base64EncodedAuthInfo(), null, '\t'))
-		info('2', 'Doge Bot Loading...')
+		info('2', 'pesong Bot Loading...')
 	})
 	fs.existsSync('./session.json') && dogexeon.loadAuthInfo('./session.json')
 	dogexeon.on('connecting', () => {
@@ -200,7 +200,7 @@ const sendButImage = async (id, text1, desc1, gam1, but = [], options = {}) => {
     }
 const sendButLocation = async (id, text1, desc1, gam1, but = [], options = {}) => {
 kma = gam1
-mhan = await dogexeon.prepareMessage(id, kma, location)
+mhan = await fahri.prepareMessage(id, kma, location)
 const buttonMessages = {
 locationMessage: mhan.message.locationMessage,
 contentText: text1,
@@ -208,7 +208,7 @@ footerText: desc1,
 buttons: but,
 headerType: 6
 }
-dogexeon.sendMessage(id, buttonMessages, MessageType.buttonsMessage, options)
+fahri.sendMessage(id, buttonMessages, MessageType.buttonsMessage, options)
 }
    // owner
 
@@ -217,7 +217,7 @@ dogexeon.sendMessage(id, buttonMessages, MessageType.buttonsMessage, options)
 
     
 
-dogexeon.on("group-update", async (anu) => {
+fahri.on("group-update", async (anu) => {
 
     metdata = await dogexeon.groupMetadata(anu.jid);
 
@@ -225,7 +225,7 @@ dogexeon.on("group-update", async (anu) => {
 
       teks = `- [ Group Opened ] -\n\n_The group has been opened by admin_\n_Now all members can send messages_`;
 
-      dogexeon.sendMessage(metdata.id, teks, MessageType.text);
+      fahri.sendMessage(metdata.id, teks, MessageType.text);
 
       console.log(`- [ Group Opened ] - In ${metdata.subject}`);
 
@@ -233,7 +233,7 @@ dogexeon.on("group-update", async (anu) => {
 
       teks = `- [ Group Closed ] -\n\n_The group has been closed by admin_\n_Now only admins can send messages_`;
 
-      dogexeon.sendMessage(metdata.id, teks, MessageType.text);
+      fahri.sendMessage(metdata.id, teks, MessageType.text);
 
       console.log(`- [ Group Closed ] - In ${metdata.subject}`);
 
@@ -305,7 +305,7 @@ dogexeon.on('group-participants-update', async (anu) => {
 
 				teks = `🐶 *Hɪ* @${num.split('@')[0]}\n🐶 *Bɪᴏ* : *${thu.status}*\n🐶 *Mᴇᴍʙᴇʀs : ${memeg}*\n🐶 *Wᴇʟᴄᴏᴍᴇ Tᴏ ${mdata.subject}*\n🐶 *ᴅᴏɴᴛ ꜰᴏʀɢᴇᴛ ᴛᴏ ʀᴇᴀᴅ ᴅᴇꜱᴄʀɪᴘᴛɪᴏɴ*`
 
-				sendButImage(anu.jid, teks, `𝐃𝐨𝐠𝐞 𝐁𝐨𝐭`, img,but = [{buttonId:`getdescgc`, 
+				sendButImage(anu.jid, teks, `fahri bot`, img,but = [{buttonId:`getdescgc`, 
 
                buttonText:{displayText: 'WELCOME'},type:1}], options = {contextInfo: {mentionedJid: [num, htod]}})
 
@@ -315,7 +315,7 @@ dogexeon.on('group-participants-update', async (anu) => {
 
 			try {
 
-				ppUrl = await dogexeon.getProfilePicture(num)
+				ppUrl = await fahri.getProfilePicture(num)
 
 				} catch {
 
@@ -327,7 +327,7 @@ dogexeon.on('group-participants-update', async (anu) => {
 
 				teks = `*Gᴏᴏᴅ Bʏᴇ* 👋\n@${num.split('@')[0]}\n*𝙷𝚘𝚙𝚎𝚏𝚞𝚕𝚕𝚢 𝚃𝚑𝚎𝚛𝚎 𝚆𝚘𝚗𝚝 𝙱𝚎 𝙱𝚞𝚛𝚍𝚎𝚗 𝙷𝚎𝚛𝚎 𝙰𝚗𝚢𝚖𝚘𝚛𝚎* 🐶`
 
-				sendButImage(anu.jid, teks, `𝐃𝐨𝐠𝐞 𝐁𝐨𝐭`, img,but = [{buttonId: `Hello World!`, buttonText: {displayText: `GOODBYE !!`}, type: 1}], options = {contextInfo: {mentionedJid: [num, htod]}})
+				sendButImage(anu.jid, teks, `fahri`, img,but = [{buttonId: `Hello World!`, buttonText: {displayText: `GOODBYE !!`}, type: 1}], options = {contextInfo: {mentionedJid: [num, htod]}})
 
 			} else if (anu.action == 'promote') {
 
@@ -347,7 +347,7 @@ dogexeon.on('group-participants-update', async (anu) => {
 
 				teks = `「 PROMOTE - DETECTED 」\n\nName : @${num.split("@")[0]}\nStatus : Member -> Admin\nGroup : ${mdata.subject}`
 
-				sendButImage(anu.jid, teks, ``, img,but = [{buttonId: `Hello World!`, buttonText: {displayText: `SAWADEE KHA HAPPY NOW?`}, type: 1}], options = {contextInfo: {mentionedJid: [num]}})
+				sendButImage(anu.jid, teks, ``, img,but = [{buttonId: `Hello World!`, buttonText: {displayText: `hi`}, type: 1}], options = {contextInfo: {mentionedJid: [num]}})
 
 			} else if (anu.action == 'demote') {
 
