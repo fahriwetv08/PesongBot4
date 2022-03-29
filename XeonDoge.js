@@ -1,6 +1,6 @@
-//-----(Doge Bot by Xeon Bot Inc.)-----\\
-//-----(Youtube Channel: Xeon)-----\\
-//-----(Whatsapp number: +916909137213)-----\\
+//-----(Pesong Bot by Fahri Bot Inc.)-----\\
+//-----(Youtube Channel: presetrend)-----\\
+//-----(Whatsapp number: +6288287764273)-----\\
 //-----(Wanna reupload??? Can, but give proper credit)----\\
 
 const
@@ -370,30 +370,30 @@ return url.match(new RegExp(/https?:\/\/(www\.)?[-a-zA-Z0-9@:%._+~#=]{1,256}\.[a
 			var ase = new Date();
                         var jamss = ase.getHours();
                          switch(jamss){
-                case 0: jamss = "Doge Bot"; break;
-                case 1: jamss = "Doge Bot"; break;
-                case 2: jamss = "Doge Bot"; break;
-                case 3: jamss = "Doge Bot"; break;
-                case 4: jamss = "Doge Bot"; break;
-                case 5: jamss = "Doge Bot"; break;
-                case 6: jamss = "Doge Bot"; break;
-                case 7: jamss = "Doge Bot"; break;
-                case 8: jamss = "Doge Bot"; break;
-                case 9: jamss = "Doge Bot"; break;
-                case 10: jamss = "Doge Bot"; break;
-                case 11: jamss = "Doge Bot"; break;
-                case 12: jamss = "Doge Bot"; break;
-                case 13: jamss = "Doge Bot"; break;
-                case 14: jamss = "Doge Bot"; break;
-                case 15: jamss = "Doge Bot"; break;
-                case 16: jamss = "Doge Bot"; break;
-                case 17: jamss = "Doge Bot"; break;
-                case 18: jamss = "Doge Bot"; break;
-                case 19: jamss = "Doge Bot"; break;
-                case 20: jamss = "Doge Bot"; break;
-                case 21: jamss = "Doge Bot"; break;
-                case 22: jamss = "Doge Bot"; break;
-                case 23: jamss = "Doge Bot"; break;
+                case 0: jamss = "Fahri Bot"; break;
+                case 1: jamss = "Fahri Bot"; break;
+                case 2: jamss = "Fahri Bot"; break;
+                case 3: jamss = "Fahri Bot"; break;
+                case 4: jamss = "Fahri Bot"; break;
+                case 5: jamss = "Fahri Bot"; break;
+                case 6: jamss = "Fahri Bot"; break;
+                case 7: jamss = "Fahri Bot"; break;
+                case 8: jamss = "Fahri Bot"; break;
+                case 9: jamss = "Fahri Bot"; break;
+                case 10: jamss = "Fahri Bot"; break;
+                case 11: jamss = "Fahri Bot"; break;
+                case 12: jamss = "Fahri Bot"; break;
+                case 13: jamss = "Fahri Bot"; break;
+                case 14: jamss = "Fahri Bot"; break;
+                case 15: jamss = "Fahri Bot"; break;
+                case 16: jamss = "Fahri Bot"; break;
+                case 17: jamss = "Fahri Bot"; break;
+                case 18: jamss = "Fahri Bot"; break;
+                case 19: jamss = "Fahri Bot"; break;
+                case 20: jamss = "Fahri Bot"; break;
+                case 21: jamss = "Fahri Bot"; break;
+                case 22: jamss = "Fahri Bot"; break;
+                case 23: jamss = "Fahri Bot"; break;
             }
             var tampilUcapan = "" + jamss;
             const jmn = moment.tz('Asia/Jakarta').format('HH.mm')
@@ -1307,7 +1307,7 @@ case 'stupid':
         break
         //funmenu by xeon
                         case 'uglycheck':
-					// source code by xeon⛔
+					// source code by fahri⛔
 if (!isRegistered) return sendButMessage (from, daftar1, daftar2, daftar3, { quoted: fkontak})
                   sange = body.slice(1)
 					const sang =['1','2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','18','19','20','21','22','23','24','25','26','27','28','29','30','31','32','33','34','35','36','37','38','39','40','41','42','43','44','45','46','47','48','49','50','51','52','53','54','55','56','57','58','59','60','61','62','63','64','65','66','67','68','69','70','71','72','73','74','75','76','77','78','79','80','81','82','83','84','85','86','87','88','89','90','91','92','93','94','95','96','97','98','99','100']
@@ -1315,7 +1315,7 @@ if (!isRegistered) return sendButMessage (from, daftar1, daftar2, daftar3, { quo
 					alpha.sendMessage(from, 'Question : *'+sange+'*\n\nAnswer: '+ nge+'%', text, { quoted: mek })
 					break
                 case 'gaycheck':
-					// source code by xeon⛔
+					// source code by fahri⛔
 if (!isRegistered) return sendButMessage (from, daftar1, daftar2, daftar3, { quoted: fkontak})
                   gayy = body.slice(1)
 					const gay =['1','2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','18','19','20','21','22','23','24','25','26','27','28','29','30','31','32','33','34','35','36','37','38','39','40','41','42','43','44','45','46','47','48','49','50','51','52','53','54','55','56','57','58','59','60','61','62','63','64','65','66','67','68','69','70','71','72','73','74','75','76','77','78','79','80','81','82','83','84','85','86','87','88','89','90','91','92','93','94','95','96','97','98','99','100']
@@ -1324,7 +1324,7 @@ if (!isRegistered) return sendButMessage (from, daftar1, daftar2, daftar3, { quo
 					break
                 case 'lesbicheck':
                 case 'lesbiancheck':
-					// source code by xeon⛔
+					// source code by fahri⛔
 if (!isRegistered) return sendButMessage (from, daftar1, daftar2, daftar3, { quoted: fkontak})
                   lesbii = body.slice(1)
 					const lesbi =['1','2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','18','19','20','21','22','23','24','25','26','27','28','29','30','31','32','33','34','35','36','37','38','39','40','41','42','43','44','45','46','47','48','49','50','51','52','53','54','55','56','57','58','59','60','61','62','63','64','65','66','67','68','69','70','71','72','73','74','75','76','77','78','79','80','81','82','83','84','85','86','87','88','89','90','91','92','93','94','95','96','97','98','99','100']
@@ -1332,7 +1332,7 @@ if (!isRegistered) return sendButMessage (from, daftar1, daftar2, daftar3, { quo
 					alpha.sendMessage(from, 'Question : *'+lesbii+'*\n\nAnswer : '+ bi+'%', text, { quoted: mek })
 					break
                 case 'handsomecheck':
-					// source code by xeon⛔
+					// source code by fahri⛔
 if (!isRegistered) return sendButMessage (from, daftar1, daftar2, daftar3, { quoted: fkontak})
 ganteng = body.slice(1)
 					const gan =['1','2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','18','19','20','21','22','23','24','25','26','27','28','29','30','31','32','33','34','35','36','37','38','39','40','41','42','43','44','45','46','47','48','49','50','51','52','53','54','55','56','57','58','59','60','61','62','63','64','65','66','67','68','69','70','71','72','73','74','75','76','77','78','79','80','81','82','83','84','85','86','87','88','89','90','91','92','93','94','95','96','97','98','99','100']
@@ -1340,7 +1340,7 @@ ganteng = body.slice(1)
 					alpha.sendMessage(from, 'Question : *'+ganteng+'*\n\nAnswer : '+ teng+'%', text, { quoted: mek })
 					break
 		case 'beautycheck':
-					// source code by xeon⛔
+					// source code by fahri⛔
 if (!isRegistered) return sendButMessage (from, daftar1, daftar2, daftar3, { quoted: fkontak})
 cantik = body.slice(1)
 					const can =['1','2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','18','19','20','21','22','23','24','25','26','27','28','29','30','31','32','33','34','35','36','37','38','39','40','41','42','43','44','45','46','47','48','49','50','51','52','53','54','55','56','57','58','59','60','61','62','63','64','65','66','67','68','69','70','71','72','73','74','75','76','77','78','79','80','81','82','83','84','85','86','87','88','89','90','91','92','93','94','95','96','97','98','99','100']
@@ -1348,7 +1348,7 @@ cantik = body.slice(1)
 					alpha.sendMessage(from, 'Question : *'+cantik+'*\n\nAnswer : '+ tik+'%', text, { quoted: mek })
 					break
 		case 'charactercheck':
-					// source code by xeon⛔
+					// source code by fahri⛔
 if (!isRegistered) return sendButMessage (from, daftar1, daftar2, daftar3, { quoted: fkontak})
 watak = body.slice(1)
 					const wa =['Compassionate','Generous','Grumpy','Forgiving','Obedient','Good','Simp','Kind-Hearted','patient','UwU','top, anyway','Helpful']
